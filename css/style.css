@@ -7,12 +7,11 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #5f5f5f; /* Set your background color here */
-    color: white; /* Set text color */
+    background-color: #5f5f5f; 
+    color: white; 
     padding: 10px;
 }
-
-/* Style the logo to align to the left and add spacing */
+/* ------------------------------NAVBAR---------------------------------- */
 
 .logo img{
     width: 100px;
@@ -20,38 +19,36 @@ header {
 
 .logo {
     display: flex;
-    margin-left: 20px; /* Adjust as needed for spacing */
+    margin-left: 20px; 
     align-items: center;
 }
 
-/* Style the navigation to align to the right and add spacing */
 nav {
     flex: 1;
     text-align: right;
-    margin-right: 20px; /* Adjust as needed for spacing */
+    margin-right: 20px; 
     font-size: large;
 }
 
-/* Style the navigation list items to be horizontally displayed */
 nav ul {
     list-style: none;
     padding: 0;
 }
 
-/* Style the individual list items to display inline and add spacing */
+
 nav ul li {
     display: inline;
-    margin-right: 50px; /* Adjust as needed for spacing between items */
+    margin-right: 50px; 
 }
 
-/* Style the navigation links */
+
 nav ul li a {
     text-decoration: none;
     color: white;
     font-weight: bold;
 }
 
-/* Style navigation links on hover */
+
 nav ul li a:hover {
     text-decoration: underline;
 }
@@ -62,4 +59,99 @@ nav ul li a:hover {
     margin-left: 10px;
     font-weight: bold;
     font-size: large;
+}
+
+
+/* ------------------------------HERO------------------------------ */
+
+#hero {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 40vh; 
+}
+
+.hero-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    width: 90%; 
+    padding: 20px;
+}
+
+.heroImg {
+    flex: 1; 
+    text-align: right; 
+}
+
+.heroImg img {
+    max-width: 100%; 
+}
+
+.hero-text {
+    flex: 1; 
+    padding: 20px; 
+    text-align: center; 
+}
+
+/* -----------------------------CONTENT-------------------------------- */
+
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.content-group {
+    position: relative; 
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    margin-bottom: 40px;
+}
+
+.content-group img {
+    max-width: 100%; 
+    margin-right: 20px; 
+    width: 300px;
+    height: 200px;
+}
+
+.content-group h2 {
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+    z-index: 2;
+}
+
+.content-group p {
+    flex: 1; 
+    margin-left: 100px;
+}
+
+
+/* ------------------------------FOOTER---------------------------------- */
+ footer img {
+    width: 100px;
+    margin-left: 10%;
+ }
+
+ footer {
+    display: flex;
+    margin-top: 100px;
+    background-color: #5f5f5f;
+    justify-content: space-between;
+ }
+
+footer .social-media {
+    display: flex;
+    align-items: center;
+    margin-right: 10%;
 }
